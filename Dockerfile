@@ -27,4 +27,4 @@ WORKDIR app
 RUN mvn clean package
 
 # Start Tomcat
-CMD ["/usr/bin/java", "-jar", "target/springbootA.jar"]
+CMD ["/usr/bin/java", "-jar", "target/springbootA-0.0.1-SNAPSHOT.jar"]
